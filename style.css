@@ -1,0 +1,315 @@
+
+*{
+    font-family: 'Work Sans';
+    margin: 0;
+
+
+}
+
+/* starting header section */
+
+.header{
+    
+    background-color: #FFFFFF;
+    background-image: url(/images/banner/banner3.png);
+    background-repeat: no-repeat;
+
+    width: fit-content;
+    /* height: 808px; */
+}
+
+.banner{
+  
+    padding: 200px 230px 350px 850px;
+    
+    
+    
+}
+
+.banner-title{
+
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 65px;
+    text-align: right;
+    margin-bottom: 24px;
+}
+
+.banner-description{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: right;
+    margin-bottom: 30px;
+}
+
+.btn-primary{
+
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 25px;
+    text-align: right;
+    position: absolute;
+    left: 1190px;
+
+    
+}
+
+
+/* failure section start */
+
+.failure{
+    display: flex;
+    align-items: center;
+    padding: 130px 320px;
+}
+
+.failure-body {
+
+    margin-left: 80px;
+}
+
+.failure-title{
+
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.failure-description{
+
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+
+/* plan section started */
+
+.plan{
+
+    margin-top: 130px;
+    margin-left: 230px;
+    margin-right: 230px;
+    /* padding: 130px 150px; */
+}
+ 
+.plan-title{
+
+    color: #151414;
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 40px;
+}
+.plan-container{
+
+    display: flex;
+    justify-content: center;
+    
+   
+}
+.img1{
+
+    padding-left: 50px;
+
+}
+.img2{
+
+    padding-left: 30px;
+
+}
+.img3{
+
+    padding-left: 20px;
+
+}
+.img4{
+
+    padding-left: 10px;
+
+}
+.plan-item{
+
+    padding: 50px 85px;
+    align-items: center;
+    
+    
+
+
+}
+.plan-item-title{
+
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 24px;
+    
+}
+
+.plan-item-description{
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+    padding-top: 15px;
+
+
+}
+
+/* skill section */
+
+.skill{
+    margin-top: 130px;
+    margin-left: 230px;
+    margin-right: 230px;
+}
+
+.skill-title{
+
+    color: #151414;
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.skill-body{
+
+    display: flex;
+    gap: 20px;
+}
+.skill-item{
+
+        background: #FFFFFF;
+        box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.09);
+        border-radius: 5px;
+        padding: 30px;
+}
+
+.skill-item-title{
+
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    color: #151414;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-item-description{
+    color: #737272;
+   font-weight: 400;
+   font-size: 16px;
+}
+
+.skill-img1{
+
+    padding-left: 115px;
+}
+.skill-img2{
+
+    padding-left: 145px;
+}
+.skill-img3{
+
+    padding-left: 125px;
+}
+
+/* gradient part */
+
+.gradient{
+
+    padding: 130px 230px;
+    margin: 120px 230px;
+    
+    /* background-image: url(/images/gradient1.png);
+    background-image:linear-gradient(70deg, rgba(54, 98, 200, 0.52)),
+    url(images/watch.png); */
+    text-align: left;
+    background-repeat: no-repeat, no-repeat;
+    background-image:  url(/images/watch.png),url(/images/gradient1.png);
+    background-blend-mode: soft-light;
+    
+}
+
+
+.gradient-title{
+
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.btn-gradient{
+
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 35px;
+    margin-bottom: 60px;
+
+}
+
+
+/* footer start */
+
+footer{
+    background-color: #151414;
+    display: flex;
+    gap: 100px;
+    padding: 130px 200px;
+}
+
+.footer-one{
+
+    margin-bottom: 130px;
+    
+}
+.footer-one-title{
+
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+.footer-one-description{
+
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.footer-two-title{
+
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.btn-footer{
+
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #005FAC;
+    padding: 20px 35px;
+    margin-top: 16px;
+    border-radius: 8px;
+}
+
+footer .footer-two input {
+
+    background-color: #151414;
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    padding-left: 10px;
+    border-color: #FFFFFF;
+
+}
+
+
