@@ -8,22 +8,20 @@
 
 /* starting header section */
 
-.header{
+header{
     
-    background-color: #FFFFFF;
     background-image: url(/images/banner/banner3.png);
     background-repeat: no-repeat;
 
-    width: fit-content;
+    
     /* height: 808px; */
 }
 
 .banner{
   
     padding: 200px 230px 350px 850px;
-    
-    
-    
+    display: inline-block;
+     
 }
 
 .banner-title{
