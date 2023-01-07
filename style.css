@@ -10,7 +10,7 @@
 
 header{
     
-    background-image: url(/images/banner/banner3.png);
+    background-image: url(./images/banner/banner3.png);
     background-repeat: no-repeat;
 
     
@@ -227,7 +227,7 @@ header{
     url(images/watch.png); */
     text-align: left;
     background-repeat: no-repeat, no-repeat;
-    background-image:  url(/images/watch.png),url(/images/gradient1.png);
+    background-image:  url(./images/watch.png),url(./images/gradient1.png);
     background-blend-mode: soft-light;
     
 }
